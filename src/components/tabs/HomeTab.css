@@ -1,0 +1,41 @@
+.tabs-menu {
+  border-bottom: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.13);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  overflow-x: auto; 
+  position: fixed;
+  top: 56px;
+  right: 0;
+  left: 96px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.tabs-item {
+  height: 32px;
+  padding: 4px 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  background: rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 16px;
+  border: 1px solid #000;
+  background: #000;
+}

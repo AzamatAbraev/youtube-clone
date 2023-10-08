@@ -1,0 +1,25 @@
+.video-main {
+  display: flex;
+}
+
+.col1 {
+  width: 60%;
+}
+
+.col2 {
+  width: 40%;
+}
+
+@media (max-width: 1000px) {
+  .video-main {
+    flex-direction: column;
+  }
+
+  .similar-videos, .video-rec-card {
+    width: 100% !important;
+  }
+
+  .main-video {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,146 @@
+.card-content {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-title {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.card-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center !important;
+  gap: 8px;
+}
+
+.btn-desc {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.control-btn {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.25s;
+}
+
+.card-image {
+  cursor: pointer;
+}
+
+.channel-btn {
+  border-radius: 50%;
+  border: none;
+}
+
+.control-btn:hover {
+  background-color: #cecece;
+}
+
+.card-channel-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.card-channel-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.channel-name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+.channel-subs {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  opacity: 0.5;
+}
+
+.card-channel-img {
+  border-radius: 50%;
+}
+
+.subscribe-btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  background:  #c00;
+  border: none;
+}
+
+.subscribe-btn:hover {
+  opacity: 0.8;
+}
+
+.card-channel-info {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 850px) {
+  .save-box, .clip-box {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .save-box, .clip-box {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+    .save-box, .clip-box, .download-box {
+    display: none;
+  }
+}
